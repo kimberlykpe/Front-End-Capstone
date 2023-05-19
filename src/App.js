@@ -4,8 +4,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          This is the beginning of the website.
+        <p><b>Logo</b>
+          Part of the little lemon.
         </p>
         <a
           className="App-link"
