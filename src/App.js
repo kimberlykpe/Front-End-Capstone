@@ -1,10 +1,19 @@
 import './App.css';
+import DefaultLogo from "./images/nav_logo.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p><b>Logo</b>
+      <nav>    
+        <ul>
+          <img src={DefaultLogo} height="300px" width="1000px"/>
+          <li><a href="/home">Homepage</a></li>        
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/blog">Blog</a></li>  
+        </ul>
+      </nav>
+        <p><i></i>
           Part of the little lemon.
         </p>
         <a
