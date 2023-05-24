@@ -2,7 +2,7 @@ import Card from "./Card";
 
 function Main() {
 return (
-    <div className="Main">
+    <div className="main">
       <main>
         <form>
           <label> Number of guests:
