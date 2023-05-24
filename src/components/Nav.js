@@ -5,7 +5,7 @@ function Nav() {
     <>
       <ul>
         <li>Home</li>
-        <li>About Uss</li>
+        <li>About Us</li>
         <li>Menu</li>
         <li>Reservations</li>
         <li>Order Online</li>
