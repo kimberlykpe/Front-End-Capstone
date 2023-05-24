@@ -1,13 +1,6 @@
 .header {
   display: flex;
   width: 100%;
-  background-color: #495E57;
-  min-height: 100vh;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #EDEFEE;
 }
 
 .logo {
@@ -21,11 +14,6 @@
   width: 100%;
   height: auto;
 }
-
-.App {
-  text-align: left;
-}
-
 
 @media (max-width: 1050px) {
   .logo {
@@ -94,3 +82,11 @@
   }
 }
 
+/*main*/
+.main {
+  display: flex;
+  background-color: #495e57;
+  width: 100%;
+  height: 420px;
+  margin-top: 2em;
+}
