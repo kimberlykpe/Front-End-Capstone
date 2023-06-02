@@ -1,19 +1,28 @@
-import * as React from "react";
-
-function Nav() {
-  return (
-    <>
+import React from "react";
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+//import { Link, useMatch, useResolvedPath } from 'react-router-dom/cjs/react-router-dom.min';
+export default function Nav() {
+  return <nav className="nav">
       <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Menu</li>
-        <li>Reservations</li>
-        <li>Order Online</li>
-        <li>Login</li>
+        <Link to="/home">Home</Link>
+        <Link to="/about">About Us</Link>
+        <Link to="/menu">Menu</Link>
+        <Link to="/reservations">Reservations</Link>
+        <Link to="/orden-online">Order Online</Link>
+        <Link to="/login">Login</Link>
       </ul>
-    </>
-
-  );
+    </nav>
 }
+/*
+function CustomLink({ to, children, ...props}) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
-export default Nav;
+  return (
+    <li className={isActive ? "active": ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+}*/

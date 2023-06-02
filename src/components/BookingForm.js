@@ -1,5 +1,11 @@
-import BookingForm from "./BookingForm";
+import React from 'react';
 
+function BookingForm() {
+   return (
+      <h1>Booking Form</h1>
+   );
+}
+export default BookingForm;
 /*
 <form style="display: grid; max-width: 200px; gap: 20px">
    <label for="res-date">Choose date</label>
