@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <div className="main">
-        <div className="main_content">
+        <div className="main_body">
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
           <p>
