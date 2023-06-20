@@ -6,8 +6,7 @@ import About from './components/About';
 import Specials from './components/Specials';
 import Footer from "./components/Footer";
 import Testimonials from './components/Testimonials';
-
-
+import BookingForm from './components/BookingForm';
 
 function App() {
   return (
@@ -18,6 +17,8 @@ function App() {
     <Specials />
     <Testimonials />
     <Footer />
+    <BookingForm />
+
     </>
     )
 }

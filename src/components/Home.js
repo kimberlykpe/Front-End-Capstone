@@ -1,10 +1,9 @@
-const Home = ({bookingData}) => {
-  console.log(bookingData);
+import * as React from "react";
+
+function Home() {
   return (
-    <>
-      <Header />
-    </>
-  );
-};
+    <h1>Bo</h1>
+ );
+}
 
 export default Home;
