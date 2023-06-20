@@ -1,14 +1,13 @@
-import restaurantChefs from "../images/Mario and Adrian b.jpg";
-import restaurant from "../images/restaurant.jpg";
-import React from "react";
+import * as React from "react";
+import chefs from "../images/Mario and Adrian b.jpg";
+import food from "../images/restaurant.jpg";
 
 const About = () => {
   return (
     <>
       <div className="about">
         <div className="about-content">
-          <h4>Little Lemon</h4>
-          <h6>Chicago</h6>
+          <h1>About Us</h1>
           <p>
             Welcome to the Little Lemon Restaurant, a hidden gem nestled in the heart of the city. 
             As you step through our doors, prepare to embark on a delightful culinary journey inspired by the vibrant 
@@ -20,8 +19,8 @@ const About = () => {
         </div>
 
         <div className="owners">
-          <img src={restaurantChefs} alt="chef_1" />
-          <img src={restaurant} alt="chef_2" />
+          <img id= "restaurantChefs" src={chefs} alt="chef_1" />
+          <img id= "restaurant" src={food} alt="chef_2" />
         </div>
       </div>
     </>
