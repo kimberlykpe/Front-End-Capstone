@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 import * as React from "react";
 import star from "../images/5_star.png";
 import customer1 from "../images/customer_1.jpeg";
 import customer2 from "../images/customer_2.jpeg";
 import customer3 from "../images/customer_3.jpeg";
+=======
+import star from "../images/5_star.png";
+import customer1 from "../images/customer1.jpg";
+import customer2 from "../images/customer2.jpg";
+import customer3 from "../images/customer3.jpg";
+>>>>>>> 8f901badcd18d28308b733e153db9b23dcec8482
 
 function Testimonials() {
   return (
